@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body{
+    top: 0;
+    width: 100%;
+    background-image: url("pexels-jplenio-1165994.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: block;
+    position:absolute;
+    overflow-x: hidden;
+    padding: 0%;
+    margin:0;
+    
+}
+
+.logo span{
+color:rgba(255, 0, 0, 0.776);
+}
+.logo h1{
+    color: aliceblue;
+    font-size:30px;
+    left:20px;
+}
+nav{
+    padding:5px 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    
+    
+}
+footer{
+  margin:-50px 80px; 
+  margin-bottom:80px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style-type:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+.menu-icon{
+    color: antiquewhite;
+    font-size:30px;
+    display: none;
+}
+.first{
+    padding:5px 10px;
+    background-color:rgba(255, 0, 0, 0.776);
+}
+.first a{
+    text-decoration:none;
+    list-style:none;
+    color: white;
+}
+button ul li a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+button ul li{
+    list-style: none;
+    text-decoration:none;
+}
+.wrapper{
+ text-align: center;
+ margin-top:100px;
+ justify-content: center;
+}
+.wrapper h1{
+    color:white;
+    top:40px;
+    font-size:40px;
+}
+.wrapper p{
+    text-align: center;
+    color: aliceblue;
+    font-size:20px;
+    justify-content: center;
+    right: 0;
+    left:0;
+    width:500px;
+    margin:10px 359px;
+    
+    
+ }
+ .wrapper span{
+    color:rgba(255, 0, 0, 0.776);
+ }
+#button{
+    padding:10px 20px;
+    color:white;
+    background-color: black;
+    border-radius:10px;
+}
+#button:hover{
+    background-color:rgba(255, 0, 0, 0.776);
+}
+.content{
+    margin-top:80px;
+    background-color: rgba(255, 0, 0, 0.74);
+    height:60vh;
+    display: block;
+    width:100%;
+}
+.content h1{
+display:flex;
+ font-size:40px;
+ color: white;
+margin: 0px 30px;
+ 
+
+}
+.content p{
+    font-size:20px;
+    color:white;
+    width:500px;
+    margin:0px 30px;
+}
+.nice{
+bottom:0;
+padding-top:80px;
+}
+.image{
+    float: right;
+    width:400px;
+    display: block;
+    margin: 100px 30px;
+
+}
+ .button2{
+    padding:10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    margin:10px 30px;
+ }
+ .img{
+    width:100%;
+    
+ }
+ #first1{
+    width:350px;
+    margin-top:70px;
+ }
+ #first2{
+    width:350px;
+    height: 200px;
+    margin-top:90px;
+ }
+ #first3{
+    width:350px;
+    height:200px;
+    display: block;
+
+ }
+ .image1{
+    margin-left:20px;
+ }
+ .image2{
+    margin:-400px 450px;
+
+ }
+ .image3{
+    float: right;
+    margin-left:650px;
+ }
+ .img p{
+    width:300px;
+ }
+ .comment{
+    margin:400px 0px;
+    background-color:black;
+    height:50vh;
+    width:100%;
+ }
+    .comment h1{
+        font-size:40px;
+        text-align:center;
+        color:white;
+        padding:50px;
+
+    }
+    .comment p{
+        font-size:17px;
+        text-align: center;
+        color:#fff;
+        width:500px;
+        margin-left:400px;
+        margin-top:-40px;
+    }
+    .button3{
+        padding:10px 20px;
+        color:white;
+        background-color:rgba(255, 0, 0, 0.74);
+        border-radius:10px;
+        align-items: center;
+        justify-content: center;
+        margin:20px 600px;
+    }
+@media (max-width:600px) {
+    body{
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        top:70px;
+        left:0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color:rgba(255, 255, 225, 0.2) ;
+        backdrop-filter: blur(10px);
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding:20px;
+        overflow: hidden;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+#menuList{
+    transition: all 0.5s;
+}
+.logo h1{
+    font-size: 30px;
+}
+
+.content2 h4{ 
+    font-size:20px;
+    width:250px;
+}
+}
